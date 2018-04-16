@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="noindex,nofollow>
+<title>{{ page.title }}</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+<link href="/assets/css/default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/assets/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<div id="wrapper1">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+			{% if page.class == "Biography"%}
+				 <span class="icon icon-user"></span>
+			{% elsif page.class == "Curriculum Vitae"%}
+				<span class="icon icon-info-sign"></span>
+			{% elsif page.class == "Research"%}
+				<span class="icon icon-search"></span>
+			{% elsif page.class == "Publication"%}
+				<span class="icon icon-book"></span>
+			{% elsif page.class == "Contact"%}
+				<span class="icon icon-phone"></span>
+			{% endif %}
+				<h1><a href="#">Longtan Wang</a></h1>
+				<span></span> </div>
+			<div id="menu">
+				<ul>
+					<li class="{% if page.class == "Biography"%} current_page_item {%endif%}" > <a href="/index" accesskey="4" title="">Biography</a></li>
+					<li class="{% if page.class == "Curriculum Vitae"%} current_page_item {%endif%}" > <a href="cv" accesskey="1" title="">Curriculum Vitae</a></li>
+					<li class="{% if page.class == "Research"%} current_page_item {%endif%}" > <a href="research" accesskey="2" title="">Research</a></li>
+					<li class="{% if page.class == "Publication"%} current_page_item {%endif%}" > <a href="publication" accesskey="3" title="">Publication</a></li>
+					<li class="{% if page.class == "Contact"%} current_page_item {%endif%}" > <a href="contact" accesskey="5" title="">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	
+</div>
+<div id="wrapper2">
+
+	<div id="content">
+		<h1>{{page.class}}</h1>
+	    {{ content }}
+	</div>
+</div>
+<div id="footer" class="container">
+	<div class="title">
+		
+		
+	<ul class="contact">
+		
+		<li><a href="longtan7379 [at] pusan [dot] ac [dot] kr" class="icon icon-envelope"><span>Envelop</span></a></li>
+		<li><a href="https://www.linkedin.com/in/%E9%9A%86%E6%BD%AD-%E7%8E%8B-29a822b4/" class="icon icon-linkedin"><span>Pinterest</span></a></li>
+		<li><a href="https://www.instagram.com/fan5ga/" class="icon icon-instagram"><span>Instagram</span></a></li>
+		<li><a href="www.facebook.com/fan5ga" class="icon icon-facebook"><span>Facebook</span></a></li>
+	</ul>
+</div>
+<div id="copyright" class="container">
+	<p>Copyright &copy 2018 | Longtan Wang | All rights reserved. </p>
+</div>
+</body>
+</html>
