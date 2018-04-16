@@ -5,7 +5,7 @@ class: Curriculum Vitae
 ---
 
 * ## Longtan Wang, Researcher 
-* [![Alt text](/assets/images/document.png)]({{site.baseurl}}/assets/file/CV_Longtan Wang.pdf)
+* [![Alt text](/assets/images/document.png)](/assets/file/CV_Longtan Wang.pdf)
 
 
 
