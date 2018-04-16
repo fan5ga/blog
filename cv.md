@@ -16,8 +16,8 @@ class: Curriculum Vitae
 
 Department of Electronics, Pusan National University, Busan, Korea
 
-1. Lab.: &nbsp;[Intellgent Robot Lab](http://robotics.pusan.ac.kr/)
-2. Supervisor: &nbsp;[Prof. Jang-Myung LEE](http://robotics.pusan.ac.kr/)
+1. Lab.: &nbsp;[Intellgent Robot Lab](https://robotics.pusan.ac.kr/)
+2. Supervisor: &nbsp;[Prof. Jang-Myung LEE](https://robotics.pusan.ac.kr/)
 3. Overall GPA: &nbsp;4.31/4.5
 
 
@@ -38,7 +38,7 @@ School of Electronics and Information, Zhongyuan University of Technology, Henan
 * Jan. 2017 - Oct. 2017
 
 
-[Shenzhen Mars Medical Robot Co.Ltd](https://www.marssurgicalrobot.com/) Project
+[Shenzhen Mars Medical Robot Co.Ltd](httpss://www.marssurgicalrobot.com/) Project
 
 1. Dense 3D reconstruction and non-rigid registration of soft tissue
 2. Stereo endoscopic Image guided navigational tracking of endoscope using ORB-SLAM
@@ -60,7 +60,7 @@ School of Electronics and Information, Zhongyuan University of Technology, Henan
 
 * Low-Cost Pedestrian Dead-Reckoning System Using GPS/INS
 
-Samsung Thalex ([Hanwha Systems](http://www.hanwhasystems.com)) Project
+Samsung Thalex ([Hanwha Systems](https://www.hanwhasystems.com)) Project
 
 1. Gait Analysis based on waist-worn IMU sensor
 2. Pedestrian Navigation based on IMU and GPS fusion using EKF and fuzzy algorithm
